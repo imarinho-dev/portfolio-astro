@@ -14,7 +14,7 @@ html {
 	}
 
 	h3 {
-		@apply bg-white/70 capitalize font-semibold tracking-wider text-xl w-full mx-auto text-center py-4 opacity-0 group-hover:opacity-100;
+		@apply capitalize font-semibold tracking-wider text-xl w-full py-4;
 	}
 }
 

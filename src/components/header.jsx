@@ -13,7 +13,7 @@ const Header = () => {
 				<nav className="flex flex-wrap justify-between	 items-center container mx-auto max-h-fit bg-white px-4 py-1 drop-shadow-sm">
 					<div className="w-1/2 md:w-1/3">
 						<a
-							className="uppercase tracking-wider font-bold text-gray-900"
+							className="uppercase tracking-wider font-bold text-gray-900 text-lg md:text-base"
 							href="#"
 						>
 							Iran Marinho

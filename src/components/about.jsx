@@ -16,23 +16,17 @@ const About = () => {
 						<div className="grid grid-cols-3 gap-x-4">
 							{/* Skills */}
 							<div>
-								<h3 className="mb-4 capitalize tracking-wider text-xl font-semibold">
-									Skills
-								</h3>
+								<h3>Skills</h3>
 								<ul className="leading-normal tracking-wider text-lg text-gray-700">
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Javascript</li>
-									<li>Tailwind CSS</li>
 									<li>React</li>
 									<li>Vue</li>
+									<li>Javascript</li>
+									<li>Tailwind CSS</li>
 								</ul>
 							</div>
 							{/* Tools */}
 							<div>
-								<h3 className="mb-4 capitalize tracking-wider text-xl font-semibold">
-									Tools
-								</h3>
+								<h3>Tools</h3>
 								<ul className="leading-normal tracking-wider text-lg text-gray-700">
 									<li>VS Code</li>
 									<li>Github</li>
@@ -42,9 +36,7 @@ const About = () => {
 							</div>
 							{/* Hobbies */}
 							<div>
-								<h3 className="mb-4 capitalize tracking-wider text-xl font-semibold">
-									Hobbies
-								</h3>
+								<h3>Hobbies</h3>
 								<ul className="leading-normal tracking-wider text-lg text-gray-700">
 									<li>Play games</li>
 									<li>Listen to music</li>
