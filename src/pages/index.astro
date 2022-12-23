@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/header";
+import About from "../components/about";
+import ProjectContainer from "../components/project-container";
+import Contact from "../components/contact";
+
+import "../styles/main.css";
+---
+
+<Layout title="Iran Marinho">
+	<Header client:load />
+	<About client:visible />
+	<ProjectContainer client:visible />
+	<Contact client:visible />
+</Layout>

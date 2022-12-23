@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	font-family: "Lato", sans-serif;
+	@apply text-gray-900 text-base leading-none;
+}
+
+@layer base {
+	h2 {
+		@apply uppercase font-semibold tracking-widest text-3xl mb-8 md:mb-16 border-l-8 border-gray-900 pl-8 py-8 w-full;
+	}
+
+	h3 {
+		@apply bg-white/70 capitalize font-semibold tracking-wider text-xl w-full mx-auto text-center py-4 opacity-0 group-hover:opacity-100;
+	}
+}
+
+@layer components {
+	.nav-link {
+		@apply w-full hover:text-gray-900 md:w-fit md:bg-transparent py-3 px-4 bg-gray-100 md:shadow-nav-link md:hover:shadow-nav-link-hover transition duration-200 ease-in;
+	}
+
+	.btn {
+		@apply border inline-block border-gray-300 cursor-pointer py-2 px-6 hover:border-gray-900 hover:bg-gray-900 hover:text-white transition duration-200 ease-in;
+	}
+
+	.form {
+		@apply grid  grid-cols-1 lg:grid-cols-2 mx-auto gap-y-4 lg:gap-y-0 lg:gap-x-8 pb-32;
+	}
+
+	.form .contact {
+		@apply flex flex-col space-y-4;
+	}
+
+	.form .contact:last-child {
+		@apply lg:mb-0;
+	}
+
+	.form .contact label {
+		@apply px-6 capitalize leading-normal tracking-wider text-gray-700;
+	}
+
+	.form .contact input {
+		@apply border border-gray-300 py-2 px-6 outline-gray-900 placeholder-gray-400;
+	}
+
+	.form .contact textarea {
+		@apply border border-gray-300 py-2 px-6 outline-gray-900 placeholder-gray-400 resize-none lg:h-full;
+	}
+}
