@@ -21,10 +21,15 @@ const Header = () => {
 					</div>
 
 					<div
-						className=" w-1/2 md:w-1/3 flex justify-end items-center cursor-pointer md:hidden"
+						className=" w-1/2 md:w-1/3 flex justify-end items-center"
 						onClick={toggleButtonHandler}
 					>
-						<Icon width={32} height={32} icon="material-symbols:menu-rounded" />
+						<Icon
+							className="cursor-pointer md:hidden"
+							width={32}
+							height={32}
+							icon="material-symbols:menu-rounded"
+						/>
 					</div>
 					<div className="w-[95%] md:w-1/3">
 						<ul
