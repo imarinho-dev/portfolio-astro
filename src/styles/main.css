@@ -28,7 +28,7 @@ html {
 	}
 
 	.form {
-		@apply grid  grid-cols-1 lg:grid-cols-2 mx-auto gap-y-4 lg:gap-y-0 lg:gap-x-8 pb-32;
+		@apply grid  grid-cols-1 lg:grid-cols-2 mx-auto gap-4 lg:gap-8 pb-32;
 	}
 
 	.form .contact {
@@ -49,5 +49,9 @@ html {
 
 	.form .contact textarea {
 		@apply border border-gray-300 py-2 px-6 outline-gray-900 placeholder-gray-400 resize-none lg:h-full;
+	}
+
+	.form .contact button {
+		@apply px-6 capitalize leading-normal tracking-wider text-gray-700;
 	}
 }

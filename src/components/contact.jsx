@@ -17,6 +17,14 @@ const Contact = () => {
 						<label htmlFor="">Message</label>
 						<textarea rows="5" />
 					</div>
+					<div className="contact lg:order-4">
+						<button
+							className="btn shadow-btn-anime hover:shadow-btn-anime-hover row-span-full "
+							type="submit"
+						>
+							Submit
+						</button>
+					</div>
 				</form>
 			</div>
 		</section>
